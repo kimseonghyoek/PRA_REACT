@@ -12,6 +12,7 @@ class App extends React.Component {
       <div>
         <ChildCompnet2
           objValue={{age: '20살'}}
+          requiredStringValue = "문자"
         /> 
     </div>
     );
