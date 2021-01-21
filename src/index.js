@@ -4,15 +4,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-const element = (
-  <div>
-    <h1>Hello!</h1>
-    <h2>Good to see you here.</h2>
-  </div>
-)
 
 ReactDOM.render(
-  element,
+  <App></App>,
   document.getElementById('root')
 );
 
