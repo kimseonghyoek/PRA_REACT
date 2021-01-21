@@ -5,11 +5,13 @@ class ChildComponent2 extends React.Component {
     render() {
         const {
             objValue,
+            requiredStringValue
         } = this.props;
 
         return (
             <div>
                 <div>객체값: {String(Object.entries(objValue))}</div>
+                <div>필수값: {requiredStringValue}</div>
             </div>
         );
     }
