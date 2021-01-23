@@ -13,7 +13,7 @@ class DefaultPropsComponent extends React.Component {
         }
         return (
             <div className="message-container">
-                {meesage1}
+                {message1}
                 {message2}
             </div>
         );

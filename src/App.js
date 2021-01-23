@@ -5,15 +5,13 @@ import Todaytudo from './Component/Todaytudo';
  import ChildCompnet from './Component/ChildComponent';
  import BooleanComponent from './Component/BooleanComponent';
  import ChildCompnet2 from './Component/ChildComponent2';
+ import DefaultPropsComponent from './Component/DefaultPropsComponent';
 
 class App extends React.Component {
   render() {
     return  (
       <div>
-        <ChildCompnet2
-          objValue={{age: '20살'}}
-          requiredStringValue = "문자"
-        /> 
+        <DefaultPropsComponent />
     </div>
     );
   }
