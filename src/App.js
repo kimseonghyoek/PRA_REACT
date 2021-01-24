@@ -6,13 +6,16 @@ import Todaytudo from './Component/Todaytudo';
  import BooleanComponent from './Component/BooleanComponent';
  import ChildCompnet2 from './Component/ChildComponent2';
  import DefaultPropsComponent from './Component/DefaultPropsComponent';
+ import ChildProperty from './Component/ChildProperty';
 
 class App extends React.Component {
   render() {
     return  (
       <div>
-        <DefaultPropsComponent />
-    </div>
+        <ChildProperty>
+          <div><span>자식 노드</span></div>
+        </ChildProperty>
+      </div>
     );
   }
 }
