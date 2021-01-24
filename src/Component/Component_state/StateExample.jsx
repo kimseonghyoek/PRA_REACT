@@ -1,6 +1,6 @@
 import React from 'react';
 
-class StaateComponent extends React.Component {
+class StateExample extends React.Component {
     constructor(props) {
         super(props);
         // state 정의
@@ -19,7 +19,7 @@ class StaateComponent extends React.Component {
         const { formData } = this.state;
         // state 변경
         this.setState({
-            loading: fasle,
+            loading: false,
             formData: data + formData,
         });
         // this.state.loading은 현재 true 입니다.
