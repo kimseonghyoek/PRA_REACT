@@ -9,12 +9,13 @@ import Todaytudo from './Component/Todaytudo';
  import ChildProperty from './Component/ChildProperty';
  import StateExample from './Component/Component_state/StateExample';
  import ForceUpdateExample from './Component/Component_state/ForceUpdateExample';
+ import Counter from './Component/Component_state/Counter';
 
 class App extends React.Component {
   render() {
     return  (
       <div>
-        <ForceUpdateExample/>
+        <Counter/>
       </div>
     );
   }
