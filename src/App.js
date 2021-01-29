@@ -10,12 +10,13 @@ import Todaytudo from './Component/Todaytudo';
  import StateExample from './Component/Component_state/StateExample';
  import ForceUpdateExample from './Component/Component_state/ForceUpdateExample';
  import Counter from './Component/Component_state/Counter';
+ import LifecycleExample from './Component/LifecyleExample';
 
 class App extends React.Component {
   render() {
     return  (
       <div>
-        <Counter/>
+        <LifecycleExample />
       </div>
     );
   }

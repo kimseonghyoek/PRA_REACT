@@ -15,11 +15,30 @@ class LifecycleExampe extends React.Component {
 
     componentDidMount() {
         console.log('componentDidMount 호출');
+        this.setState({ updated: true });
     }
 
     componentDidUpdate() {
         console.log('componentDidUpdate 호출');
     }
 
-    
+    componentWillUnmount() {
+        console.log('componentWillUnmount 호출');
+    }
+
+    getSnapshotBeforeUpdate() {
+        console.log('getSnapshotBeforeUpdate 호출');
+    }
+
+    shouldComponentUpdate() {
+        console.log('shouldComponentUpdate 호출');
+        return true;
+    }
+
+    render() {
+        console.log('render 호출');
+        return null;
+    }
 }
+
+export default LifecycleExampe;
