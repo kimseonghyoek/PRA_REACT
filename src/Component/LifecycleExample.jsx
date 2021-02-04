@@ -19,8 +19,7 @@ class LifecycleExampe extends React.Component {
 
   componentDidMount() {
     console.log("componentDidMount 호출");
-
-    this.setState({ updated: true });
+    this.forceUpdate();
   }
 
   componentDidUpdate() {

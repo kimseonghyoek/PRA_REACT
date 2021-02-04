@@ -6,7 +6,8 @@ class Counter extends React.Component {
 
     // state 정의
     this.state = {
-      count: 0
+      // Count 초깃값을 프로퍼티에서 전달 된 값으로 설정한다.
+      count: props.count
     };
     this.increaseCounter = this.increaseCounter.bind(this);
   }
