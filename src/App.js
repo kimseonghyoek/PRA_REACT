@@ -1,6 +1,5 @@
 import React from 'react';
-import Counter from './Component/Component_state/Counter';
-import NewCounter from './Component/Component_state/NewCounter';
+import ShallowEqual from './Component/shallowEqual';
 
 class App extends React.Component {
   constructor(props) {
@@ -15,9 +14,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-         <div><Counter count={this.state.count}/></div>
-         <div><NewCounter count={this.state.count}/></div>
-         <button onClick={this.resetCount}>{this.state.count + 10}으로 초기화</button>
+         <ShallowEqual/>
       </div>
     );
   }
